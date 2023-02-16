@@ -1,0 +1,33 @@
+body {
+    background-image: url(img/fondo.jpg);
+}
+
+.menu1 {
+    display: flex;
+    padding-top: 25px;
+}
+
+.menu2 {
+    text-align: right;
+    padding-top: 0px;
+}
+
+button {
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+}
+
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+ img {
+    position: fixed;
+    margin-left: 0;
+    width: 5%;
+    background: none;
+ }
+ 
