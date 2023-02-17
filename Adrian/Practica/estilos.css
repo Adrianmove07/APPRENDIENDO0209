@@ -3,13 +3,14 @@ body {
 }
 
 .menu1 {
-    padding-top: 25px;
+    padding-left: 200px;
+    padding-top: 20px;
     position: fixed;
     display: flex;
 }
 
 .menu2 {
-    padding-top: 25px;
+    padding-top: 20px;
     text-align: right;
 }
 
@@ -32,4 +33,9 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
- 
+
+.logoheader {
+    position: fixed;
+    width: 9%;
+}
+
