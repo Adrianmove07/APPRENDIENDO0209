@@ -3,13 +3,14 @@ body {
 }
 
 .menu1 {
-    display: flex;
     padding-top: 25px;
+    position: fixed;
+    display: flex;
 }
 
 .menu2 {
+    padding-top: 25px;
     text-align: right;
-    padding-top: 0px;
 }
 
 button {
@@ -18,16 +19,17 @@ button {
     margin-left: 10px;
 }
 
+.encabezado:hover{
+    transform: scaleX(1.1) scaleY(1.1);
+    transition: 0.1s;
+    background-color: transparent;
+    }
 
 
 a {
+    font-size: medium;
+    font: bolder;
     color: #ffffff;
     text-decoration: none;
 }
- img {
-    position: fixed;
-    margin-left: 0;
-    width: 5%;
-    background: none;
- }
  
