@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: black;
+    opacity: 60%;
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 100;
+    border-radius: 1rem;
+    
+}
+
+.navbar {
+
+    padding: 5px;
+    display: flex;
+    margin-right: 20px;   
+}
+
+.logo {
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+
+    margin-right: 20px;
+    display: block;
+    padding: 20px 20px;
+    color: rgb(249, 254, 255);
+    border-radius: 1rem;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background: #35a5e6;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 80vh !important;
+    background: url(img/apprlogofondo.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 1rem;
+    color: rgb(240, 251, 255);
+    text-decoration: none;
+    background: #2c9cdd;
+}
+
+.btn:hover {
+    background: #35a5e6;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #cecece
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 10rem;
+    width: 15rem;
+    background: #181b1d;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem .5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 20%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+
+    padding: 10px;
+    font-size: 20px;
+    color: #35a5e6;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+    color: #d9f8ff;
+}
+
+
+.about {
+    background: #04243d;
+}
+
+.price {
+    background: url(img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: auto;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 30px;
+    background: #4d4d4d;
+    padding-bottom: 0;
+}
+.slider h2{
+
+    padding-top: 30px;
+    font-size: 40px;
+    color: #04243d;
+
+}
+.slider p{
+
+    padding-top: 20px;
+    font-size: 22px;
+    color: #04243d;
+    text-align: center;
+
+}
+
+.slider{
+
+    height: auto;
+    width: auto;
+    margin: auto;
+    
+}
+.slider ul{
+    display: flex;
+    padding: 0; 
+    overflow: hidden;
+    width: 400%;
+    height: 200%;
+
+    animation: cambio 20s infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+.slider li{
+    width: 80%;
+    list-style: none;  
+}
+ .slider img{
+    width: 100%;
+
+ }
+
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
