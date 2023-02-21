@@ -23,7 +23,7 @@ body {
     /*position: fixed;*/
     width: 100%;
     z-index: 100;
-    border-radius: 1rem;
+    /*border-radius: 1rem;*/
     
 }
 
@@ -46,19 +46,27 @@ body {
     font-size: 20px;
 }
 
+.logo:hover{
+    transform: scaleX(1.1) scaleY(1.1);
+    transition: 0.3s; 
+}
+
 .navbar a {
 
     margin-right: 20px;
     display: block;
     padding: 20px 20px;
     color: rgb(249, 254, 255);
-    border-radius: 1rem;
+
+    /*border-radius: 1rem;*/
     text-decoration: none;
     font-size: 18px;
 }
 
 .navbar a:hover {
-    background: #35a5e6;
+    transform: scaleX(1.1) scaleY(1.1);
+    transition: 0.3s; 
+    background: #272a2a;
 }
 
 
