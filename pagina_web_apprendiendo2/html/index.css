@@ -63,6 +63,11 @@ height: 50%;
 }
 
 /*login*/ 
+.imagen:hover{
+    transform: scaleX(1.2) scaleY(1.2);
+    transition: 0.3s;
+}
+
 .navlogin {
    margin-top: 0%;
 }
@@ -70,14 +75,13 @@ height: 50%;
 width: 320px;
 height: 560px;
 background-color: #ffffff;
-color: #000000;
 top: 50%;
 left: 50%;
 position: absolute; 
 transform: translate(-50%, -50%);
 box-sizing: border-box;
 padding: 7px 30px;
-box-shadow: 0px 8px 8px rgb(153, 151, 151);
+box-shadow: 0px 8px 8px rgb(0, 0, 0);
 border-radius: 20px;
 }
 .login .imglogin {
@@ -136,6 +140,10 @@ font-size: 18px;
 border-radius: 50px;
 }
 
+.nav2 {
+    text-align: center;
+}
+
 .login a {
 text-decoration: none;
 font-size: 18px;
@@ -144,7 +152,9 @@ color: #9BE02F;
 }
 
 .login a:hover {
-color: #0071BC;
+    transform: scaleX(1.1) scaleY(1.1);
+    transition: 1s;
+    color: #0071BC;
 }
 
 .login h2 {
@@ -272,7 +282,7 @@ color: #9BE02F;
 }
 
 .registro a:hover {
-color: #0071BC;
+    color: #0071BC;
 }
 
 .registro h2 {
