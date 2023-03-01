@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    
+    margin: 0 auto;
+    width: 960px;
+    column-count: 2;
+}
+
+div {
+    column-count: 3;
+}
+
+ul {
+    text-align: left;
+    column-span: all;
+    
+}
+
+.div1 {  
+   background-color: aqua;
+    width: 260px;
+}
+
+
+.div2 {
+    width: 700px;
+    display: inline-block;
+    background-color: brown;
+}
+
+
+h2 {
+    text-align: left;
+    column-span: all;
+}
+p {
+    text-align: left;
+    column-span: all;
+}
