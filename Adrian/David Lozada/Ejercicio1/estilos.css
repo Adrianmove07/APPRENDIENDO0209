@@ -1,42 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 h1 {
     text-align: center;
 }
 
-main {
-    
-    margin: 0 auto;
+.adrian { 
     width: 960px;
-    column-count: 2;
-}
-
-div {
-    column-count: 3;
+    margin: 0 auto;
 }
 
 ul {
-    text-align: left;
-    column-span: all;
-    
+    text-align: left;    
 }
 
-.div1 {  
-   background-color: aqua;
-    width: 260px;
+.div1 { 
+    width: 260px; 
+    float: left;
 }
-
 
 .div2 {
     width: 700px;
-    display: inline-block;
-    background-color: brown;
+    float: left;
 }
 
+.div3 {
+    width: 700px;
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
 
 h2 {
     text-align: left;
-    column-span: all;
 }
-p {
+
+p  {
     text-align: left;
-    column-span: all;
 }
