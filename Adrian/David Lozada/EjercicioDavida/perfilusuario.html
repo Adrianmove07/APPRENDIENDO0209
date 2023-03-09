@@ -17,12 +17,12 @@
             <input id="nombreuser" class="nombreUser" type="name" placeholder="NOMBRE(S)">
             <input id="apellidosuser" class="apellidosUser" type="apellidos" placeholder="APPELLIDOS">
             <p class="datestyle">FECHA DE NACIMIENTO<input id="fechanacuser"  class="fechanacUser" type="date" placeholder="FECHA DE NACIMIENTO"></p>
-            <input type="email" placeholder="CORREO ELECTRONICO">
-            <input type="telefono" placeholder="NUMERO DE TELEFONO">
-            <input type="direccion" placeholder="DIRECCION">
+            <input id="correouser" class="correoUser" type="email" placeholder="CORREO ELECTRONICO">
+            <input id="telefonouser" class="telefonoUser" type="telefono" placeholder="NUMERO DE TELEFONO">
+            <input id="direccionuser" class="direccionUser" type="direccion" placeholder="DIRECCION">
         
-            <input id="botonenviar" class="enviar" type="submit" value="ENVIAR">
-            <input id="botonsalir" class="salir" type="submit" value="SALIR">
+            <input id="botonenviar" onclick="validarcorreo(), enviarperfil()"  class="enviar" type="submit" value="ENVIAR">
+            <input id="botonsalir" onclick="salir()" class="salir" type="submit" value="SALIR">
         </form> 
     </div> 
     <script src="forms.js"></script>

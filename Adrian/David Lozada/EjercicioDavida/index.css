@@ -78,8 +78,12 @@ height: 40px;
 color: #000000;
 font-size: 16px;
 }
-
+.login input:hover[type="submit"]{
+    transform: scaleX(1.1) scaleY(1.1);
+    transition: 0.5s;
+}
 .login input[type="submit"]{
+    display: 0 auto;
 border: none;
 outline: none;
 width: 50%;
@@ -121,6 +125,7 @@ width: 25px;
 height: 25px;
 }
 .boton{
+padding: 23px;
 margin-top: 8px;
 display: inline-block;
 }
@@ -364,8 +369,8 @@ font-size: 20px;
     width: 25%;
 }
 .container-perfil {
-    margin-top: 25px;
-    width: 800px;
+    padding-top: 24px;
+    width: 600px;
     margin: 0 auto;
     background-color: #ffffff;
 }
